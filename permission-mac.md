@@ -67,4 +67,4 @@ Wenn eine Versionsnummer erscheint → **alles funktioniert! 🎉**
 ## 💡 Kurz erklärt
 
 - **uv** wird automatisch im Benutzerverzeichnis installiert (`~/.local/bin`).  
-- Die kurzen Befehle oben stellen sicher, dass das Installationsprogramm in `~/.zshrc` schreiben darf.  
+- Die Befehle oben stellen sicher, dass das Installationsprogramm in `~/.zshrc` schreiben darf.  

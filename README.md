@@ -1,8 +1,7 @@
 # Projektmanagement mit uv
 
-uv ist ein schneller, in Rust geschriebener Paket- und Projektmanager für Python. Er bündelt Installation, virtuelle Umgebungen und Dependency-Management in einem einzigen Werkzeug und ist damit eine moderne Alternative zu `pip`, `virtualenv` oder `pip-tools`.
+uv ist ein Paket- und Projektmanager für Python. Er bündelt Installation, virtuelle Umgebungen und Dependency-Management in einem einzigen Werkzeug.
 
-## Dokumentation in diesem Ordner
 
 - [uv-hinweise.md](uv-hinweise.md): Überblick, Funktionsumfang und Begriffe rund um uv
 - [uv-installation.md](uv-installation.md): Installationsanleitung inkl. Fehlerbehebung
@@ -11,6 +10,7 @@ uv ist ein schneller, in Rust geschriebener Paket- und Projektmanager für Pytho
 - [permission-mac.md](permission-mac.md): Rechteprobleme unter macOS (zsh/fish) beheben
 
 
-## Weiterführende Ressourcen
+**Weiterführende Ressourcen:**
+
 - Offizielle Website: [https://astral.sh/uv](https://astral.sh/uv)
 - GitHub-Repository: [https://github.com/astral-sh/uv](https://github.com/astral-sh/uv)

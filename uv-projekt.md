@@ -119,8 +119,6 @@ uv add pandas openai
 
 uv aktualisiert bei jedem `uv add`-Befehl automatisch die `pyproject.toml` und uv.lock-Datei und installiert die Pakete in die bereits vorhandene virtuelle Umgebung.
 
-
-
 ## uv in VS Code
 
 Zur Arbeit in Visual Studio Code (VS Code) das Projekt öffnen.

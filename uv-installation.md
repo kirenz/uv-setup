@@ -46,6 +46,4 @@ uv --version
 
 - Falls der Befehl `uv --version` nicht gefunden wird, könnte es daran liegen, dass es Schwierigkeiten mit den Rechten gab. In diesem Fall bitte die Anleitungen zur Behebung von Permission denied Fehlern nutzen:
 
-- [Permission denied Fehler unter Windows beheben](permission-windows.md)
-
 - [Permission denied Fehler unter macOS/Linux beheben](permission-mac.md)

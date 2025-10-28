@@ -5,8 +5,7 @@ uv ist ein Paket- und Projektmanager für Python. Er bündelt Installation, virt
 
 - [uv-installation.md](uv-installation.md): Installationsanleitung inkl. Fehlerbehebung
 - [uv-projekt.md](uv-projekt.md): Schritt-für-Schritt-Anleitung zum Aufbau eines Projekts
-- [permission-windows.md](permission-windows.md): Rechteprobleme in Git Bash unter Windows lösen
-- [permission-mac.md](permission-mac.md): Rechteprobleme unter macOS (zsh/fish) beheben
+- [permission-mac.md](permission-mac.md): Rechteprobleme unter macOS beheben
 
 
 **Weiterführende Ressourcen:**

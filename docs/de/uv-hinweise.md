@@ -1,4 +1,5 @@
 # Projektmanagement mit uv
+Deutsch | [English](../en/uv-hinweise.md)
 
 uv ist ein Paketmanager für Python, der sich durch seine Geschwindigkeit und Effizienz auszeichnet. Er wurde in der Programmiersprache Rust entwickelt und zielt darauf ab, die Verwaltung von Python-Paketen und -Projekten zu vereinfachen. 
 
@@ -13,4 +14,3 @@ uv bietet eine Vielzahl von Funktionen, die die Arbeit mit Python-Projekten erle
 * **Verwaltung von Abhängigkeiten:** uv verwaltet die Abhängigkeiten eines Projekts und erstellt eine Lockfile (`uv.lock`), um die Reproduzierbarkeit der Umgebung zu gewährleisten.
 * **Ausführung von Skripten:** uv kann Skripte in einer isolierten Umgebung ausführen.
 * **Kompatibilität mit `pip`:** uv bietet eine `pip`-kompatible Schnittstelle und kann als Ersatz für `pip`, `pip-tools` und `virtualenv` verwendet werden.
-

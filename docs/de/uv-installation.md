@@ -1,4 +1,5 @@
 # Installation von uv
+Deutsch | [English](../en/uv-installation.md)
 
 1. Terminal (Mac) oder Git Bash (Windows) öffnen
 2. Folgenden Befehl eingeben und Enter drücken:

@@ -1,4 +1,5 @@
 # Erstellung eines Projekts mit uv
+Deutsch | [English](../en/uv-projekt.md)
 
 uv macht die Python-Projektinitialisierung zu einem einfachen Prozess. Mit wenigen Befehlen erhalten wir eine vollständig konfigurierte Entwicklungsumgebung mit der richtigen Python-Version. 
 

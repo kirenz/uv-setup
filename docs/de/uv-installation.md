@@ -33,6 +33,9 @@ uv --version
 
 ## Probleme bei der Installation
 
+Für weitere Installationsoptionen besuchen Sie bitte die [offizielle Installationsanleitung](https://docs.astral.sh/uv/getting-started/installation/).
+
+
 Falls der Befehl `uv --version` nicht gefunden wird, könnte es daran liegen, dass es Schwierigkeiten mit den Rechten gab. In diesem Fall bitte die Anleitungen zur Behebung von Permission denied Fehlern nutzen:
 
 - [Permission denied Fehler unter macOS beheben](permission-mac.md)

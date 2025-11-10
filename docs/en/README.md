@@ -1,10 +1,9 @@
 # Project Management with uv
-[Deutsch](../de/README.md) | English
 
 uv is a package and project manager for Python. It combines installation, virtual environments, and dependency management in a single tool.
 
 - [uv-installation.md](uv-installation.md): Installation guide including troubleshooting
-- [uv-projekt.md](uv-projekt.md): Step-by-step instructions for setting up a project
+- [uv-project.md](uv-project.md): Step-by-step instructions for setting up a project
 - [permission-mac.md](permission-mac.md): Fixing permission issues on macOS
 
 ## Notes for Windows

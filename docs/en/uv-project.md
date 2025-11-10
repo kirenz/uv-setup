@@ -1,5 +1,4 @@
 # Creating a Project with uv
-[Deutsch](../de/uv-projekt.md) | English
 
 uv turns Python project setup into a straightforward process. With just a few commands you get a fully configured development environment with the right Python version.
 

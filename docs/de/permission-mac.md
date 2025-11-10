@@ -1,5 +1,4 @@
 # Permission denied Fehler beheben 
-Deutsch | [English](../en/permission-mac.md)
 
 Diese Anleitung beschreibt Schritt für Schritt, wie die Installation von **uv** auf einem Mac gelingt, wenn im Terminal eine Meldung wie  `Permission denied` oder  
 `unable to create receipt directory at ~/.config/uv`  

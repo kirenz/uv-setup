@@ -1,5 +1,4 @@
 # Project management with uv
-[Deutsch](../de/uv-hinweise.md) | English
 
 uv is a Python package manager that stands out for its speed and efficiency. It is written in Rust and aims to simplify the management of Python packages and projects.
 

@@ -1,41 +1,58 @@
-# Installation von uv
-Deutsch | [English](../en/uv-installation.md)
+# uv installieren
 
-1. Terminal (Mac) oder Git Bash (Windows) öffnen
-2. Folgenden Befehl eingeben und Enter drücken:
+1. Terminal (macOS) oder Git Bash (Windows) öffnen.
+2. Folgenden Befehl ausführen:
 
 ```bash
 curl -LsSf https://astral.sh/uv/install.sh | sh
 ```
 
-Falls curl nicht vorhanden sein sollte, kann alternativ auch wget genutzt werden:
+Falls `curl` nicht verfügbar ist, stattdessen `wget` verwenden:
 
 ```bash
 wget -qO- https://astral.sh/uv/install.sh | sh
 ```
 
+3. Installation abwarten, bis sie abgeschlossen ist.
 
-3. Warten, bis die Installation abgeschlossen ist
+Nach der Installation prüfen, ob uv verfügbar ist:
 
-## Installation überprüfen
-
-Nach der Installation sollte man überprüfen, ob uv korrekt installiert wurde:
-
-1. Ein neues Terminal- bzw. Git-Bash-Fenster öffnen
-2. Folgenden Befehl eingeben:
+4. Aktuelles Terminalfenster schließen.
+5. Neues Terminal- oder Git-Bash-Fenster öffnen.
+6. Diesen Befehl eingeben:
 
 ```bash
 uv --version
 ```
 
-3. Es sollte eine Versionsnummer angezeigt werden (z.B. `0.6.8`)
+Es sollte eine Versionsnummer erscheinen (z. B. `0.6.8`).
 
+Bei fehlgeschlagener Installation die Schritte unter Problembehebung ausprobieren.
 
-## Probleme bei der Installation
+## Problembehebung
 
-Für weitere Installationsoptionen besuchen Sie bitte die [offizielle Installationsanleitung](https://docs.astral.sh/uv/getting-started/installation/).
+### Windows
 
+PowerShell statt Git Bash verwenden und folgenden Befehl ausführen:
 
-Falls der Befehl `uv --version` nicht gefunden wird, könnte es daran liegen, dass es Schwierigkeiten mit den Rechten gab. In diesem Fall bitte die Anleitungen zur Behebung von Permission denied Fehlern nutzen:
+```powershell
+powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
+```
 
-- [Permission denied Fehler unter macOS beheben](permission-mac.md)
+### macOS
+
+Zuerst den Paketmanager Homebrew installieren (falls noch nicht vorhanden):
+
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
+Anschließend uv installieren mit:
+
+```bash
+brew install uv
+```
+
+Bei Fehlermeldungen vom Typ „Permission denied“ den Schritten in dieser Anleitung folgen:
+
+- [Berechtigungsfehler unter macOS beheben](permission-mac.md)

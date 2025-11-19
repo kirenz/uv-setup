@@ -3,7 +3,7 @@
 [uv](https://docs.astral.sh/uv/) is a package and project manager for Python. It combines installation, virtual environments, and dependency management in a single tool.
 
 > [!NOTE]
-> On Windows I recommend using [Git Bash]((https://git-scm.com/download/win)) to install and use uv. Git Bash provides a Unix-like environment that works well with uv.
+> On Windows I recommend using [Git Bash](https://git-scm.com/download/win) to install and use uv. 
 
 1. Open Terminal (macOS) or Git Bash (Windows)
 

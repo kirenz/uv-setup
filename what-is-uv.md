@@ -52,16 +52,16 @@ cd my-project
 
 ### Step 5: Add Python Packages
 
-Add any external libraries your project needs. For example, to add pandas (a data analysis library):
+Add any external libraries your project needs. For example, to add rich (makes terminal text colorful and formatted):
 
 ```bash
-uv add pandas
+uv add rich
 ```
 
 You can also add multiple packages as needed:
 
 ```bash
-uv add gradio altair
+uv add rich emoji
 ```
 
 ### Step 6: Open in Your Code Editor
@@ -126,15 +126,15 @@ uv sync
 
 Now you can open the project in VS Code and work normally:
 
-```bash
-code .
-```
-
-And run the code:
+Run the code:
 
 ```bash
-uv run python main.py
+uv run main.py
 ```
+
+>[!TIP]
+>uv looks at the file extension (.py), realizes it is a Python script, and automatically invokes the Python interpreter for you.
+
 
 ## Project Files uv Creates
 
@@ -178,6 +178,9 @@ To update uv to the latest version:
 uv self update
 ```
 
+<details>
+<summary> ⬇️ If you get an error </summary>
+
 If uv self update gives you an error saying it is disabled or not managed by uv, use the command matching your package manager. For example:
 
 
@@ -192,6 +195,8 @@ pip install --upgrade uv
 ```bash 
 brew upgrade uv
 ```
+
+</details>
 
 **Why update?**
 - Get new features and improvements

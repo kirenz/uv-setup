@@ -179,8 +179,9 @@ uv self update
 ```
 
 <details>
-<summary> ⬇️ If you get an error </summary>
+<summary> Click here if you get an error </summary>
 
+<br>
 If uv self update gives you an error saying it is disabled or not managed by uv, use the command matching your package manager. For example:
 
 

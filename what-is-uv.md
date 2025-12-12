@@ -1,6 +1,14 @@
 # What is uv?
 
-**uv** is a modern tool that helps you manage Python projects. Think of it as an all-in-one assistant that takes care of the technical setup so you can focus on writing code.
+>**uv** is a modern tool that helps you manage Python projects. Think of it as an all-in-one assistant that takes care of the technical setup so you can focus on writing code.
+
+## Table of Contents
+
+- [Why Do You Need It?](#why-do-you-need-it)
+- [Your Typical Workflow](#your-typical-workflow)
+- [Working with Existing Projects from GitHub](#working-with-existing-projects-from-github)
+- [Project Files uv Creates](#project-files-uv-creates)
+- [Keeping uv Up to Date](#keeping-uv-up-to-date)
 
 ## Why Do You Need It?
 

@@ -83,15 +83,18 @@ Open the project in VS Code (or your preferred editor).
 In VS Code's integrated terminal, run your Python scripts:
 
 ```bash
-uv run python main.py
+uv run main.py
 ```
 
->[!TIP]
+>[!IMPORTANT]
 Make sure to use the integrated terminal where you installed uv (e.g., Git Bash for Windows).
+
 
 **What this does:**
 - `uv run` = tells uv to run a command using your project's Python environment
-- `python main.py` = runs your main.py file
+
+
+uv looks at the file extension (.py), realizes it is a Python script, and automatically invokes the Python interpreter for you.
 
 
 ## Working with Existing Projects from GitHub
@@ -140,8 +143,6 @@ Run the code:
 uv run main.py
 ```
 
->[!TIP]
->uv looks at the file extension (.py), realizes it is a Python script, and automatically invokes the Python interpreter for you.
 
 
 ## Project Files uv Creates

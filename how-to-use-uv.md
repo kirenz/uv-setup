@@ -1,5 +1,7 @@
 # How to use uv?
 
+![uv](https://img.shields.io/badge/uv-managed-430f8e.svg?style=flat&logo=python&logoColor=white)
+
 >**uv** is a modern tool that helps you manage Python projects. Think of it as an all-in-one assistant that takes care of the technical setup so you can focus on writing code.
 
 ## Table of Contents

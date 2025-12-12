@@ -1,4 +1,4 @@
-# What is uv?
+# How to use uv?
 
 >**uv** is a modern tool that helps you manage Python projects. Think of it as an all-in-one assistant that takes care of the technical setup so you can focus on writing code.
 
